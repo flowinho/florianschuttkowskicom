@@ -45,5 +45,5 @@ Eine horizontale Linie:
 --- 
 
 |Tabelle|mit|Ausrichtungen|
-|:—-|:—-:|--:|
+|:--|:-:|--:|
 |a|b|c|
