@@ -1,6 +1,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: florian schuttkowski
+title: "Florian Schuttkowski"
 description: >- # this means to ignore newlines until "baseurl:"
   Wie alles was ich tue, widme ich diese Website den drei Frauen,
   die mein Leben tagtäglich bereichern: meinen Kinder und meiner Partnerin. Danke für eure Liebe und die
