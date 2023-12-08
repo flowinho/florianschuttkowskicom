@@ -7,7 +7,7 @@ layout: page
 ## Menschen
 
 - **Inge**, die einfach ständig miterleben muss, wie ich Projekt 1756 starte und später wieder fallen lasse.
-- **Meine Töchter**, danke dass ihr Papa nicht nie böse seid, wenn er in Gedanken versunken codet, und dabei die Dominos umstößt.
+- **Meine Töchter**, danke dass ihr Papa nicht böse seid, wenn er während dem Spielen in Gedanken versunken codet, und dabei die Dominos umstößt.
 
 ## Software
 
