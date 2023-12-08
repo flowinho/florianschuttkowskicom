@@ -9,7 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 
-date_format: "%m.%d.%Y"
+minima:
+  date_format: "%m.%d.%Y"
 
 plugins:
   - jekyll-feed
