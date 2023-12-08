@@ -47,3 +47,5 @@ Eine horizontale Linie:
 |Tabelle|mit|Ausrichtungen|
 |:--|:-:|--:|
 |a|b|c|
+|d|e|f|
+|auch längere|inhalte|existieren|
