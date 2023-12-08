@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Impressum"
+exclude: true
 permalink: /impressum/
 ---
 
