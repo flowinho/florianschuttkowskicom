@@ -3,6 +3,12 @@ title: Danksagungen
 layout: page
 ---
 
+
+## Menschen
+
+- **Inge**, die einfach ständig miterleben muss, wie ich Projekt 1756 starte und später wieder fallen lasse.
+- **Meine Töchter**, danke dass ihr Papa nicht nie böse seid, wenn er in Gedanken versunken codet, und dabei die Dominos umstößt.
+
 ## Software
 
 - [Working Copy](https://apps.apple.com/app/id896694807), Git Client für iOS/iPadOS
