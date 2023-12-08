@@ -2,6 +2,7 @@
 layout: default
 title: Datenschutzerklärung
 permalink: /datenschutz/
+exclude: true
 ---
 
 <h2>Inhaltsverzeichnis</h2>
