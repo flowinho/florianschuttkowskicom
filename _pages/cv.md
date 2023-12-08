@@ -15,7 +15,7 @@ Leitzstraße 45
 Mail: contact at flowinho dot com  
 Mail: florian dot schuttkowski at de dot bosch dot com  
 Telefon: +49  
-Matrix: flowinho:tchncs.de  
+  
 
 ## Ausbildung
 - **B.Sc.**, [ Ravensburg-Weingarten University of Applied Sciences ](https://rwu.de), Department of [Applied Informatics](https://www.rwu.de/studieren/studiengaenge/angewandte-informatik). 2011
@@ -34,5 +34,4 @@ Matrix: flowinho:tchncs.de
 ## Andere Aktivitäten
 - **iOS Software Developer**, [Ladefuchs, einfach schlau laden](https://ladefuchs.app). 2020-2021
 - **Podcast Host**, [Audiodump](https://audiodump.de). 2017-Heute
-- **Blogger „Gedankenflut“**, [Gedankenflut](https://gedankenflut.org). 2023-Heute
 - **Open Source Developer**, [GitHub](https://github.com/flowinho). 2017-Heute
