@@ -15,6 +15,7 @@ permalink: /:year/:title:output_ext
 theme: minima
 
 minima:
+  skin: auto
   date_format: "%m.%d.%Y"
 
 plugins:
