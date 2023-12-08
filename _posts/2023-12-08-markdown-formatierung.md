@@ -3,8 +3,6 @@ layout: post
 title: "Markdown Formatierungsbeispiel"
 ---
 
-# Markdown Formatierungsbeispiel
-
 ## Textformatierung
 *Dieser Text* ist kursiv und **dieser Text** ist fett. ~~Dieser Text~~ ist durchgestrichen.
 
@@ -39,11 +37,13 @@ Inline-Code: `print(„Hello, World!“)`
 Code-Block:
 ```python
 def greet():
-    print(„Hello, World!“)
+    print("Hello, World!")
 ```
+
+Eine horizontale Linie:
 
 --- 
 
 |Tabelle|mit|Ausrichtungen|
-|:—|:-:|-:|
-|a|b|c|d|
+|:—-|:-:|--:|
+|a|b|c|
