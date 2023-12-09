@@ -6,12 +6,12 @@ permalink: /impressum/
 ---
 <h1>Impressum</h1>
 <h2 id="m46">Diensteanbieter</h2>
-<p>Florian Schuttkowski</p>
-<p>Korntaler Straße 15/1</p>
-<p>71636 Ludwigsburg</p>
-<p>Deutschland</p>
+<p>Florian Schuttkowski<br />
+Korntaler Straße 15/1<br />
+71636 Ludwigsburg<br />
+Deutschland</p>
 <h2 id="m56">Kontaktmöglichkeiten</h2>E-Mail-Adresse: mail [at] florian-s [dot] org
-<h2 id="m154">Journalistisch-redaktionelle Angebote</h2>Inhaltlich verantwortlich: <p>Florian Schuttkowski</p>
+<h2 id="m154">Journalistisch-redaktionelle Angebote</h2>Inhaltlich verantwortlich: Florian Schuttkowski
 <h2 id="m172">Social Media und andere Onlinepräsenzen</h2>Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile: 
 <p><a href="https://chaos.social/@flowinho" target="_blank">https://chaos.social/@flowinho</a></p>
 <p><a href="https://github.com/flowinho" target="_blank">https://github.com/flowinho</a></p>
