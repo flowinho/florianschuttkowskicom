@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Wie alles was ich tue, widme ich diese Website den drei Frauen,
   die mein Leben tagtäglich bereichern: meinen Kinder und meiner Partnerin. Danke für eure Liebe und die
   Erfahrungen, die ich an eurer Seite machen darf. 
+author: Florian Schuttkowski 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
