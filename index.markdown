@@ -5,8 +5,8 @@
 layout: home
 ---
 
-**Lead Developer iOS**
-Cross Solutions Charging (XSC)
+**Lead Developer iOS**  
+Cross Solutions Charging (XSC)  
 Robert Bosch GmbH
 
 ## Kurze Biografie
