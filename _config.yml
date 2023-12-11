@@ -7,7 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Erfahrungen, die ich an eurer Seite machen darf. 
 author: Florian Schuttkowski 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://florianschuttkowski.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 include: ['_pages']
 
