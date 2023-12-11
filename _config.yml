@@ -14,7 +14,12 @@ include: ['_pages']
 permalink: /:year/:title:output_ext
 
 theme: minima
-
+highlighter: none
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+      
 minima:
   skin: ultra
   date_format: "%d.%m.%Y"
