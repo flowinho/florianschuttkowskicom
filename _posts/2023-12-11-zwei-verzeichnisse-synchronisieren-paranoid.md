@@ -33,7 +33,7 @@ graph TD
 
 ## Rsync-Switches ausführlicher erklärt
 
-- `a` steht **Archive**. Dieser Befehl ist eine Kurzform von `rlptgoD``. Kopiert rekursiv und behält Nutzer, Gruppen, Dateiberechtigungen und Zeitstempel bei.
+- `a` steht **Archive**. Dieser Befehl ist eine Kurzform von `rlptgoD`. Kopiert rekursiv und behält Nutzer, Gruppen, Dateiberechtigungen und Zeitstempel bei.
     - `r` steht für **recursive**, geht in jedes Verzeichnis und dessen Unterverzeichnisse und untersucht deren Inhalte.
     - `l` kopiert Sym**links** als Symlinks
     - `p` steht für **permissions**. bewahrt also die Zugriffsberechtigungen der Dateien.
