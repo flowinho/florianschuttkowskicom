@@ -6,7 +6,7 @@ title: Zwei Verzeichnisse synchronisieren - PARANOID mode
 ## Anforderungen
 
 - Alle Verzeichnisse und Unterverzeichnisse sollen verglichen werden.
-- Nur Dateien die nicht vorhanden sind, sollen kopiert werden.
+- Nur Dateien die auf dem Ziel nicht vorhanden sind, sollen kopiert werden.
 - Wenn im Ziel eine neuere Version einer Datei vorliegt, soll die ältere Version der Datei die neuere Datei nicht ersetzen.
 - Im Zielverzeichnis soll nichts gelöscht werden.
 
