@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Zwei Verzeichnisse synchronisieren - PARANOID mode
+mermaid: true
 ---
 
 ## Anforderungen
@@ -9,6 +10,26 @@ title: Zwei Verzeichnisse synchronisieren - PARANOID mode
 - Nur Dateien die auf dem Ziel nicht vorhanden sind, sollen kopiert werden.
 - Wenn im Ziel eine neuere Version einer Datei vorliegt, soll die ältere Version der Datei die neuere Datei nicht ersetzen.
 - Im Zielverzeichnis soll nichts gelöscht werden.
+
+## Grafische Aufschlüsselung
+
+<div class="mermaid">
+graph TD
+    startLoop[Wird für jede Datei ausgeführt]
+    doesExist{Existiert die Datei im Ziel?}
+    isNewer{Datei im Ziel aktueller?}
+    willBeCopied[Datei wird kopiert]
+    willNotBeCopied[Datei wird nicht kopiert]
+
+    startLoop --> doesExist
+    doesExist -- Datei existiert --> isNewer
+    doesExist -- Datei existiert nicht --> willBeCopied
+    isNewer -- Datei ist neuer --> willBeCopied
+    isNewer -- Datei ist älter oder gleich alt --> willNotBeCopied
+
+    willBeCopied --> startLoop
+    willNotBeCopied --> startLoop
+</div>
 
 ## Rsync-Switches ausführlicher erklärt
 

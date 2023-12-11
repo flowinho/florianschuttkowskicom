@@ -5,3 +5,7 @@
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
 <link rel="stylesheet" href="{{ "/assets/prismjs/prism.css" | relative_url }}">
+
+{% if page.mermaid %}
+  {% include mermaid.html %}
+{% endif %}
