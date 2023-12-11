@@ -61,7 +61,7 @@ main {
 .logo-container {
 
   margin: auto;
-  text-align: center;
+  text-align: center; 
   margin-top: 8px;
   margin-bottom: 8px;
   clear:both;
@@ -80,6 +80,13 @@ main {
   background: linear-gradient(90deg,rgb(99, 99, 99),#2c2c2c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: $on-medium) {
+    .logo-container { 
+      text-align: left;
+      margin-left: 16px !important;
+    }
 }
 
 /**
