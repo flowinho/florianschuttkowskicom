@@ -58,7 +58,29 @@ main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
+.logo-container {
 
+  margin: auto;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  clear:both;
+  line-height: 0.85 !important;
+
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+}
+.ascii-logo {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  white-space: pre-wrap;
+  background: linear-gradient(90deg,rgb(99, 99, 99),#2c2c2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /**
  * Images
