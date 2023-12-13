@@ -21,7 +21,7 @@ kramdown:
       disable : true
       
 minima:
-  skin: ultra
+  skin: auto
   date_format: "%d.%m.%Y"
 
 plugins:
