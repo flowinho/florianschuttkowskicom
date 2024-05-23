@@ -23,7 +23,7 @@ ich möchte diese Gelegenheit nutzen, um Ihnen meinen aufrichtigen Dank auszuspr
 
 Dank Ihrer Anleitung und Förderung konnte ich meine Fähigkeiten und Kenntnisse im Bereich der angewandten Informatik wesentlich erweitern. Sie haben mir nicht nur fachliche Kompetenzen vermittelt, sondern auch wertvolle Impulse und Inspiration gegeben, die mich auf meinem Weg bestärkt haben.
 
-Ihr Verständnis für und Sorge um die Bedürfnisse von uns Studierenden war in meinemJahrgang unglaublich geschätzt. Durch ihre freundliche, direkte und fachmännische Art haben Sie mich angespornt, und durch ihre Freude über die Themen regelrecht angesteckt.
+Ihr Verständnis für und Sorge um die Bedürfnisse von uns Studierenden war in meinem Jahrgang unglaublich geschätzt. Durch ihre freundliche, direkte und fachmännische Art haben Sie mich angespornt, und durch ihre Freude über die Themen regelrecht angesteckt.
 
 Ihre Rolle als Mentor und Wegbegleiter ist einer der Hauptgründe, weshalb ich das Studium der angewandten Informatik an der Hochschule in Weingarten jedem ans Herz legen kann. Ihre Leidenschaft für das Fachgebiet und Ihr Einsatz für die Studierenden machen dieses Studium zu etwas Besonderem.
 

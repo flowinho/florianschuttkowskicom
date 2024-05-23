@@ -23,7 +23,18 @@ vertical-align: middle;
 }
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
-  <style type="text/css">
+  <style type="text/css">@font-face {
+font-family: "Spectral-Regular";
+src: url("assets/fonts/Spectral-Regular.ttf");
+font-weight: 400;
+font-style: normal;
+}
+@font-face {
+font-family: "Spectral-Bold";
+src: url("assets/fonts/Spectral-Bold.ttf");
+font-weight: 700;
+font-style: normal;
+}
 body {
 margin: auto;
 padding-right: 1em;
@@ -34,9 +45,15 @@ overflow-wrap: break-word;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-rendering: optimizeLegibility;
-font-family: Verdana, sans-serif;
+font-family: "Spectral-Regular", Verdana, serif;
 font-size: 100%;
 color: #333; }
+strong {
+font-family: "Spectral-Bold", serif;
+}
+em {
+font-family: "Spectral-italic", serif;
+}
 .content {
 line-height: 140%;
 }
@@ -80,6 +97,7 @@ border-top: 1px solid lightgrey;
 font-size: 90%;
 margin-top: 24px;
 margin-bottom: 32px;
+line-height: 100%;
 }
 .footer a {
 text-decoration: none;
