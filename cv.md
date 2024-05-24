@@ -1,5 +1,7 @@
 ---
 title: CV
+author: Florian Schuttkowski
+date: 2024-05-24
 ---
 
 ## Kontaktinformationen
