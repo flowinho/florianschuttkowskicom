@@ -85,7 +85,8 @@ $latex-text-color:           hsl(0, 5%, 10%);
 $latex-background-color:      hsl(210, 20%, 98%);
 $latex-code-background-color: #f0f0f0 !default;
 
-$latex-link-base-color:       hsl(0, 100%, 33%);
+// $latex-link-base-color:       hsl(0, 100%, 33%);
+$latex-link-base-color:       #7a5ada;
 $latex-link-visited-color:    $latex-link-base-color !default;
 $latex-link-hover-color:      $latex-text-color !default;
 
@@ -215,6 +216,10 @@ hr {
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
     background: $latex-code-background-color !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #7a5ada;
 }
 
 blockquote {
