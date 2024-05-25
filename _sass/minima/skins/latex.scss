@@ -40,7 +40,31 @@
       url('/assets/fonts/LM-bold-italic.ttf') format('truetype');
   }
 
-$base-font-family: "Latin Modern", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+  @font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/assets/fonts/Spectral-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/assets/fonts/Spectral-Italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/assets/fonts/Spectral-Bold.ttf') format('truetype');
+  }
+
+$base-font-family: "Spectral", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
 $code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
