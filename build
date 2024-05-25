@@ -1,2 +1,0 @@
-find . -name \*.md -type f -exec pandoc --from markdown --to html --standalone --embed-resources --toc --wrap=preserve --citeproc --bibliography=assets/citations.bib -c assets/pandoc.css -A assets/footer.html -B assets/header.html --template assets/template.html -o {}.html {} \;
-find . -depth -name '*.md.html' -execdir bash -c 'mv -i "$1" "${1//md.html/html}"' bash {} \;
