@@ -26,7 +26,6 @@ header_pages:
   - _pages/my-work.md
   - _pages/kontakt.md
   - _pages/downloads.md
-  - _pages/gallery.md
 
 minima:
   skin: latex

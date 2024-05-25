@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Florian Schuttkowski" />
+  <meta name="dcterms.date" content="2024-05-22" />
+  <title>Software Engineering</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">@font-face {
+font-family: "Spectral-Regular";
+src: url("assets/fonts/Spectral-Regular.ttf");
+font-weight: 400;
+font-style: normal;
+}
+@font-face {
+font-family: "Spectral-Bold";
+src: url("assets/fonts/Spectral-Bold.ttf");
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+font-family: "Spectral-Italic";
+src: url("assets/fonts/Sp4ctral-Italic.ttf");
+font-weight: 400;
+font-style: italic;
+}
+body {
+margin: auto;
+padding-right: 1em;
+padding-left: 1em;
+max-width: 50em; font-feature-settings: "kern" 1;
+font-kerning: normal;
+overflow-wrap: break-word;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+font-family: "Spectral-Regular", Verdana, serif;
+font-size: 100%;
+color: #333; }
+strong {
+font-family: "Spectral-Bold", serif;
+}
+em {
+font-family: "Spectral-Italic", serif;
+}
+.content {
+line-height: 140%;
+}
+a:link {
+color: #7a5ada; }
+a:visited {
+color: #7a5ada;
+}
+.header {
+border-top: 2px solid #7a5ada;
+font-size: 90%;
+padding: 8px;
+text-align: center;
+}
+.header a {
+text-decoration: none;
+color: #7a5ada; }
+.logo-container {
+margin: auto;
+margin-top: auto;
+margin-bottom: auto;
+text-align: center;
+margin-top: 8px;
+margin-bottom: 8px;
+clear: both;
+line-height: 0.39 !important;
+}
+.monospace-logo {
+padding: 0;
+margin: 0;
+font-family: monospace;
+font-size: 8px;
+white-space: pre-wrap;
+background: linear-gradient(90deg, rgb(97, 107, 255), #7a5ada);
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.footer {
+border-top: 1px solid lightgrey;
+font-size: 90%;
+margin-top: 24px;
+margin-bottom: 32px;
+line-height: 129%;
+}
+.footer a {
+text-decoration: none;
+}
+.small-footer-text {
+font-size: 90%;
+}
+pre {
+border: 1px dotted gray;
+background-color: #ececec;
+color: #111111;
+padding: 0.5em;
+}
+code {
+font-family: monospace;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a { text-decoration: none;
+color: #7a5ada; }
+h1, h2, h3, h4, h5 { font-family: verdana;
+font-weight: bold;
+border-bottom: 1px dotted black;
+color: #7a5ada; }
+h1 {
+font-size: 130%;
+}
+h2 {
+font-size: 110%;
+}
+h3 {
+font-size: 95%;
+}
+h4 {
+font-size: 90%;
+font-style: italic;
+}
+h5 {
+font-size: 90%;
+font-style: italic;
+}
+h1.title {
+font-size: 200%;
+font-weight: bold;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+text-align: left;
+border: none;
+}
+dt code {
+font-weight: bold;
+}
+dd p {
+margin-top: 0;
+}
+figure {
+text-align: center;
+margin-left: 0;
+margin-right: 0;
+}
+img {
+max-width: 100%;
+height: auto;
+padding: 4px;
+border: 1px solid black;
+}
+figcaption, caption {
+color: grey;
+font-size: 90%;
+text-align: center;
+}
+figcaption::before {
+content: "Bild: "
+}
+caption {
+margin-bottom: 6px;
+}
+caption::before {
+content: "Tabelle: "
+}
+.float-right {
+float:right;
+}
+.float-left {
+float:left;
+}
+p.author, p.date {
+color: grey;
+font-size: 84%;
+margin-top: -16px;
+}
+.abstract p {
+font-style: italic;
+}
+.abstract-title {
+color: #7a5ada;
+border-bottom: 1px dotted black;
+}
+#TOC::before {
+content: "Inhaltsverzeichnis";
+color: #7a5ada;
+}
+#TOC {
+margin-bottom: 24px;
+}
+#refs {
+margin-top: 24px;
+margin-bottom: 24px;
+}
+#refs::before {
+content: "Quellenangaben";
+color: #7a5ada;
+}
+.line-block, blockquote {
+border-left: 2px solid #7a5ada;
+padding-left: 12px;
+}
+blockquote {
+margin-left: 12px;
+}
+table {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+margin-bottom: 16px;
+}
+
+table th {
+font-weight: bold;
+background-color: #7a5ada; 
+color: white;
+}
+
+table tr:nth-child(odd) {
+}
+table tr:nth-child(even) {
+background-color: #ececec;
+}
+
+table, th, td {
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+.author-info {
+}
+.author-image {
+}</style>
+<!--  -->
+</head>
+<body>
+<div class="logo-container">
+    <span class="monospace-logo">
+░█▀▀░█░░░█▀█░█▀▄░▀█▀░█▀█░█▀█░░░░░█▀▀
+░█▀▀░█░░░█░█░█▀▄░░█░░█▀█░█░█░▄▄▄░▀▀█
+░▀░░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░▀░▀░░░░░▀▀▀</span>
+</div>
+<div class="header">
+    <a href="/">Home</a> ~
+    <a href="/cv.html">CV</a> ~
+    <a href="/arbeit.html">Software Engineering</a> ~
+    <a href="/blog.html">Beiträge</a> 
+    <!-- ~
+    <a href="/kontakt.html">Kontakt</a> -->
+</div>
+<header id="title-block-header">
+<h1 class="title">Software Engineering</h1>
+<p class="author">Florian Schuttkowski</p>
+<p class="date">2024-05-22</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>Diese Seite gibt einen groben Überblick über Technologien, Programmiersprachen und Software mit der ich aktuell arbeite oder in der Vergangenheit gearbeitet habe. Kein Anspruch auf Vollständigkeit.</p>
+</div>
+</header>
+<div class="content">
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#programmier-und-markup-sprachen" id="toc-programmier-und-markup-sprachen">Programmier und Markup Sprachen</a></li>
+<li><a href="#open-source-entwicklung" id="toc-open-source-entwicklung">Open Source Entwicklung</a></li>
+<li><a href="#source-control-management" id="toc-source-control-management">Source Control Management</a>
+<ul>
+<li><a href="#plattformen" id="toc-plattformen">Plattformen</a></li>
+<li><a href="#tools" id="toc-tools">Tools</a></li>
+</ul></li>
+<li><a href="#ci-cd-plattformen" id="toc-ci-cd-plattformen">CI / CD Plattformen</a></li>
+<li><a href="#editoren-entwicklungsumgebungen" id="toc-editoren-entwicklungsumgebungen">Editoren / Entwicklungsumgebungen</a></li>
+<li><a href="#static-site-generators" id="toc-static-site-generators">Static Site generators</a></li>
+<li><a href="#cli-tools" id="toc-cli-tools">CLI tools</a></li>
+<li><a href="#server-management" id="toc-server-management">Server Management</a></li>
+<li><a href="#betriebssysteme" id="toc-betriebssysteme">Betriebssysteme</a></li>
+<li><a href="#task-management" id="toc-task-management">Task Management</a></li>
+<li><a href="#notes-knowledge-management" id="toc-notes-knowledge-management">Notes / Knowledge Management</a></li>
+<li><a href="#sprachen" id="toc-sprachen">Sprachen</a></li>
+<li><a href="#others" id="toc-others">Others</a></li>
+</ul>
+</nav>
+<h2 id="programmier-und-markup-sprachen">Programmier und Markup Sprachen</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Language</th>
+<th style="text-align: left;">Sicherheit</th>
+<th style="text-align: left;">Notizen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Markdown</td>
+<td style="text-align: left;">█████</td>
+<td style="text-align: left;">Allgegenwärtig.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Swift</td>
+<td style="text-align: left;">████░</td>
+<td style="text-align: left;">Umsetzung mehrerer App-Projekte.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Objective-C</td>
+<td style="text-align: left;">████░</td>
+<td style="text-align: left;">Umsetzung mehrerer App-Projekte.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">YAML</td>
+<td style="text-align: left;">███░░</td>
+<td style="text-align: left;">Konfiguration von Software und CI/CD Pipelines.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mermaid</td>
+<td style="text-align: left;">██░░░</td>
+<td style="text-align: left;">Anwendung in Arc42 Dokumentation und Posts für diesen Blog.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CSS</td>
+<td style="text-align: left;">██░░░</td>
+<td style="text-align: left;">Gestaltung diverser Websites.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HTML</td>
+<td style="text-align: left;">█░░░░</td>
+<td style="text-align: left;">Basis-Kenntnisse die innerhalb dieses Blog genutzt werden.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bash</td>
+<td style="text-align: left;">█░░░░</td>
+<td style="text-align: left;">Schreiben eigener Shellscripts um den Alltag zu erleichtern.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="open-source-entwicklung">Open Source Entwicklung</h2>
+<p>Die meisten der von mir entwickelten Anwendungen und Videospiele sind aufgrund von Verträgen mit Publishern oder Kunden und NDAs geschützt
+und können entsprechend nicht veröffentlicht bzw. hier genannt werden.</p>
+<ul>
+<li><a href="https://github.com/flowinho/florianschuttkowskicom">flowinho/florianschuttkowskicom</a><br />
+Diese Website, ehemals entwickelt mit Jekyll, Visual Studio Code &amp; NVIM. Nun eine simple Pandoc-Website. Denn weniger, ist mehr.
+<em>HTML, CSS, Liquid, Markdown, GitHub Actions, Jekyll</em></li>
+<li><a href="https://github.com/flowinho/pandoc-website">flowinho/pandoc-website</a><br />
+Proof-of-concept. Eine Website, die mit pandoc umgesetzt wird und durch GitHub Actions bei jedem Merge / Pull Request automatisch integriert und auf GitHub Pages veröffentlicht.<br />
+<em>Markdown, Docker, Bash, Yaml, GitHub Actions</em></li>
+<li><a href="https://github.com/flowinho/pandoc-din5008-german">flowinho/pandoc-din5008-german</a><br />
+Proof-of-concept, genutzt für private Briefe und Dokumente. Ein mit Pandoc umgesetztes Brieftemplate, basierend auf der Arbeit von <a href="https://github.com/benedictdudel/pandoc-letter-din5008">Benedict Dudel</a>.<br />
+<em>Markdown, LaTeX, Docker, Bash, Yaml, GitHub Actions</em></li>
+<li><a href="https://github.com/flowinho/pandoc-software-documentation-template">flowinho/pandoc-software-documentation-template</a><br />
+Ein LaTeX und Pygments-Template zur Umsetzung von Software Dokumentation mit pandoc.<br />
+<em>LaTeX, CSS, Docker, Bash, Yaml, GitHub Actions</em></li>
+<li><a href="https://github.com/flowinho/personal-website">flowinho/personal-website</a><br />
+Meine alte persönliche Website, komplett gestaltet im Stil von Windows 95 / Windows 98.<br />
+<em>HTML, CSS, Liquid, Markdown, GitHub Actions, Jekyll</em></li>
+<li><a href="https://github.com/flowinho/dotfiles">flowinho/dotfiles</a><br />
+Ein Einblick in meine CLI Konifguration und Einstellungen für NVIM, Midnight-Commander, TMUX und mehr.<br />
+<em>zshell, Bash</em></li>
+</ul>
+<h2 id="source-control-management">Source Control Management</h2>
+<h3 id="plattformen">Plattformen</h3>
+<ul>
+<li>GitHub</li>
+<li>GitLab</li>
+<li>Azure DevOps</li>
+<li>Atlassian Bitbucket</li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li>git (CLI tools)</li>
+<li>GitHub Desktop</li>
+<li>GitHub CLI</li>
+<li>Working Copy</li>
+</ul>
+<h2 id="ci-cd-plattformen">CI / CD Plattformen</h2>
+<ul>
+<li>Azure DevOps</li>
+<li>GitHub Actions</li>
+</ul>
+<h2 id="editoren-entwicklungsumgebungen">Editoren / Entwicklungsumgebungen</h2>
+<ul>
+<li>Visual Studio Code</li>
+<li>XCode</li>
+<li>nvim</li>
+</ul>
+<h2 id="static-site-generators">Static Site generators</h2>
+<ul>
+<li>Jekyll</li>
+<li>mkdocs</li>
+</ul>
+<h2 id="cli-tools">CLI tools</h2>
+<ul>
+<li>zsh</li>
+<li>imagemagick</li>
+<li>pigz</li>
+<li>gpg</li>
+<li>brew</li>
+<li>apt</li>
+<li>btop</li>
+<li>midnight-commander</li>
+<li>ncdu</li>
+<li>gh</li>
+<li>magic-wormhole</li>
+<li>p7zip</li>
+<li>pandoc</li>
+<li>rmlint</li>
+<li>tmux</li>
+</ul>
+<h2 id="server-management">Server Management</h2>
+<ul>
+<li>ufw</li>
+<li>fail2ban</li>
+<li>OpenSSH</li>
+<li>Shellfish</li>
+<li>Docker</li>
+</ul>
+<h2 id="betriebssysteme">Betriebssysteme</h2>
+<ul>
+<li>macOS<br />
+</li>
+<li>Ubuntu Linux</li>
+</ul>
+<h2 id="task-management">Task Management</h2>
+<ul>
+<li>Atlassian Jira</li>
+<li>Omnifocus 4</li>
+<li>Things 3</li>
+<li>Todoist</li>
+<li>Microsoft Todo</li>
+</ul>
+<h2 id="notes-knowledge-management">Notes / Knowledge Management</h2>
+<ul>
+<li>Atlassian Confluence</li>
+<li>Obsidian</li>
+<li>Evernote</li>
+<li>Notion</li>
+</ul>
+<h2 id="sprachen">Sprachen</h2>
+<ul>
+<li>Deutsch, fließend</li>
+<li>Englisch, fließend</li>
+</ul>
+<h2 id="others">Others</h2>
+<ul>
+<li>Citrix</li>
+<li>iTerm2</li>
+</ul>
+</div>
+<div class="footer">
+    <p>
+        <a href="/impressum.html">Impressum</a> ~ <a href="/datenschutz.html">Datenschutzerklärung</a> ~ <a href="/danksagungen.html">Danksagungen</a><br /><br />
+        <span class="small-footer-text">Wie alles was ich tue, widme ich diese Website den drei Frauen, die mein Leben tagtäglich bereichern: meinen Kindern und meiner Partnerin. Danke für eure Liebe und die Erfahrungen, die ich an eurer Seite machen darf. </span><br /><br />
+        <span class="small-footer-text">2024 Florian Schuttkowski</span><br />
+    </p>
+</div>
+</body>
+</html>
