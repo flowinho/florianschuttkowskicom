@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Willkommen
 ---
 
@@ -12,7 +12,3 @@ Derzeit arbeite ich in der Position des iOS-Lead Entwicklers und Architekten in 
 ```bash
 $ echo "Hallo Welt!"
 ```
-<br />
-
-## Neueste Beiträge
-

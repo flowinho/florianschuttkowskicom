@@ -22,6 +22,7 @@ kramdown:
       disable : true
       
 header_pages:
+  - _pages/blog.md
   - _pages/cv.md
   - _pages/my-work.md
   - _pages/kontakt.md
