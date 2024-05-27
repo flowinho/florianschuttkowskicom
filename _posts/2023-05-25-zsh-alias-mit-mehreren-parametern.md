@@ -5,6 +5,9 @@ title: "ZSH Alias mit mehreren Parametern erzeugen"
 
 Programmierer:innen sind faul. Das müssen Sie auch sein. Ich wollte aber nicht nur faul sein, sondern auch schneller. Eine gute Methode um faul **und** schneller zu sein, sind Terminal-Alias, die lange Befehlsketten zu kurzen bündeln können. Dank zshell ist es möglich in diesen Alias auch eine Funktionen legen zu können, die Parameter erwartet.
 
+> Das hier ist ein Blockzitat. Es kann über mehrere Zeilen gehen, muss es aber nicht. Manchmal wird zu viel zitiert, manchmal zu wenig.
+> Meistens aber, wird vergessen eine Quelle anzugeben. -- Unbekannt
+
 Mein Ziel war es, so einfach wie möglich eine Datei oder ein Verzeichnis zuerst möglichst effizient zu komprimieren, und danach per gpg zu verschlüsseln.
 
 Hier die Befehle im Einzelnen:

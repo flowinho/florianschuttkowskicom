@@ -148,8 +148,10 @@ a {
 blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
-  padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.125);
+  // padding-left: $spacing-unit * .5;
+  padding: $spacing-unit * .5;
+  
+  @include relative-font-size(1.025);
   font-style: italic;
 
   > :last-child {
@@ -170,7 +172,7 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $border-color-01;
+  border: 1px dotted $border-color-01;
   border-radius: 3px;
   background-color: $code-background-color;
 }
