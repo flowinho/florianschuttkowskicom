@@ -1,26 +1,26 @@
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: "Florian Schuttkowski"
-description: >- # this means to ignore newlines until "baseurl:"
+description: >
   Wie alles was ich tue, widme ich diese Website den drei Frauen,
   die mein Leben tagtäglich bereichern: meinen Kindern und meiner Partnerin. Danke für eure Liebe und die
-  Erfahrungen, die ich an eurer Seite machen darf. 
-author: Florian Schuttkowski 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://florianschuttkowski.com" # the base hostname & protocol for your site, e.g. http://example.com
-
-include: 
-  - _pages
-
-permalink: /:year/:title
+  Erfahrungen, die ich an eurer Seite machen darf.
+author: Florian Schuttkowski
+baseurl: ""
+url: "https://florianschuttkowski.com"
 
 theme: minima
 highlighter: none
 markdown: kramdown
 kramdown:
-   syntax_highlighter_opts:
-      disable : true
-      
+  syntax_highlighter_opts:
+    disable: true
+
+minima:
+  skin: latex
+  date_format: "%d.%m.%Y"
+
+include:
+  - _pages
+
 header_pages:
   - _pages/blog.md
   - _pages/cv.md
@@ -28,29 +28,7 @@ header_pages:
   - _pages/kontakt.md
   - _pages/downloads.md
 
-minima:
-  skin: latex
-  date_format: "%d.%m.%Y"
+permalink: /:year/:title
 
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
