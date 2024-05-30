@@ -4,7 +4,7 @@ title: Gallerie
 permalink: /gallerie/
 ---
 
-Ein paar Fotos die mir sehr gut gefallen. Alles Fotos sind CC BY-SA 4.0 lizensiert.
+Ein paar Fotos die mir sehr gut gefallen. Alles Fotos sind CC BY-SA 4.0 lizensiert. Ich lade keine Fotos auf Instagram oder PixelFed mehr hoch, da ich gerne die Kontrolle über meinen Content habe und auch nicht durch meine Fotos Einnahmen für Dritte generieren will.
 
 <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="parallax: 150; parallax-justify: true; masonry: pack">
     {% for image in site.static_files %}
