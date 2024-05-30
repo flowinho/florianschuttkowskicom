@@ -14,9 +14,9 @@ kramdown:
   syntax_highlighter_opts:
     disable: true
 
-minima:
-  skin: latex
-  date_format: "%d.%m.%Y"
+#minima:
+ # skin: latex
+  #date_format: "%d.%m.%Y"
 
 include:
   - _pages
