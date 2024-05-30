@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Jekyll from scratch"
 ---
 
 bundle exec jekyll new plainSite --blank
