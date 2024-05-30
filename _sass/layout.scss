@@ -1,0 +1,88 @@
+.container {
+    max-width: $content-width;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.ascii-logo-container {
+    padding-top:    16px;
+}
+
+.site-header {
+    padding-bottom: 16px;
+}
+
+.footer {
+    padding-top:    16px;
+    padding-bottom: 16px;
+    margin-top:     16px;
+}
+
+.page-title {
+    padding-top:    16px;
+    padding-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top:     32px;
+    margin-bottom:  16px;
+    padding-bottom: 4px;
+}
+
+pre {
+    padding:        16px;
+    margin-top:     16px;
+    margin-bottom:  16px;
+}
+
+.code-toolbar {
+    margin-top:     32px;
+    margin-bottom:  32px;
+}
+
+table {
+    margin-top:     16px;
+    margin-bottom:  16px;
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+blockquote {
+    margin-top:     16px;
+    margin-bottom:  16px;
+    padding: 4px;
+    padding-left: 16px;
+}
+
+ul, ol {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    padding-left: 32px;
+}
+
+img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+table img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.uk-grid {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mermaid {
+    margin: 16px;
+}

@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: Impressum
-exclude: true
 permalink: /impressum/
 ---
-<h1>Impressum</h1>
+
 <h2 id="m46">Diensteanbieter</h2>
 <p>Florian Schuttkowski<br />
 Korntaler Straße 15/1<br />

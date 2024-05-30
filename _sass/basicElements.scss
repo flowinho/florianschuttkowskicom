@@ -1,0 +1,86 @@
+
+body {
+    background:     $backgroundColor;
+    color:          $bodyColor;
+    font-family:    $bodyFont;
+    font-size:      $basicFontSize;
+    line-height:    $baseLineHeight;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+// Headings
+h1 { font-size: $h1-Size; }
+h2 { font-size: $h2-Size; }
+h3 { font-size: $h3-Size; }
+h4 { font-size: $h4-Size; }
+h5 { font-size: $h5-Size; }
+h6 { font-size: $h6-Size; }
+
+h1, h2, h3, h4, h5, h6 {
+    color: $mainColor;
+}
+
+h2 {
+    border-bottom: 1px dotted $mainColor;
+}
+
+pre code {
+    font-family:    $codeFont;
+    font-size:      $codeFontSize;
+}
+
+code[class*=language-],pre[class*=language-]{
+    font-family:    $codeFont;
+    font-size:      $codeFontSize;
+}
+
+pre {
+    border:             1px dotted $codeBorderColor;
+    border-radius:      4px;
+    background-color:   $codeBackgroundColor;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    th, td {
+        border: 1px solid $tableBorderColor;
+    }
+    
+    th {
+        background-color: $tableHeaderBackgroundColor;
+        font-weight: bold;
+    }
+
+    tr {
+        &:nth-child(even){
+            background-color: $tableZebraBackgroundColor;
+        }
+    }
+}
+
+blockquote {
+    border-left: 1px solid $mainColor;
+    font-style: italic;
+}
+
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: decimal;
+}
+
+strong {
+    font-weight: 700;
+    font-style: bold;
+}
+
+em {
+    font-style: italic;
+    color: black;
+}

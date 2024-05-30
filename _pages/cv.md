@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-{% include portrait-header.html %}
+{% include authorbox.html %}
 
 ## Kontaktinformationen
 
@@ -12,9 +12,21 @@ permalink: /cv/
 **Mail**: florian dot schuttkowski at de dot bosch dot com  
 **Telefon**: +49 . 173 . 42 79 512
   
+## Kenntnisse
+
+|Language|Sicherheit|Notizen|
+|:--|:--|:--|
+|Markdown|█████|Allgegenwärtig.|
+|Swift|████░|Umsetzung mehrerer App-Projekte.|
+|Objective-C|████░|Umsetzung mehrerer App-Projekte.|
+|YAML|███░░|Konfiguration von Software und CI/CD Pipelines.|
+|Mermaid|██░░░|Anwendung in Arc42 Dokumentation und Posts für diesen Blog.| 
+|CSS|██░░░|Gestaltung diverser Websites.|
+|HTML|█░░░░|Basis-Kenntnisse die innerhalb dieses Blog genutzt werden.|
+|Bash|█░░░░|Schreiben eigener Shellscripts um den Alltag zu erleichtern.|
 
 ## Ausbildung
-- **B.Sc.**, [ Ravensburg-Weingarten University of Applied Sciences ](https://rwu.de), Department of [Applied Informatics](https://www.rwu.de/studieren/studiengaenge/angewandte-informatik). 2011
+- **B.Sc.**, [ Ravensburg-Weingarten University of Applied Sciences ](https://rwu.de), Department of [Applied Informatics](https://www.rwu.de/studieren/studiengaenge/angewandte-informatik). 2011
 	- Gründungsmitglied der Mobile Application Development Group (M.A.D.), erste App Development Student Group der Fachhochschule.
 	- Sprecher „Nacht der Informatik“.
 

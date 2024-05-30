@@ -1,0 +1,35 @@
+// Layout definitions
+$content-width: 1000px;
+
+// Font configs
+$bodyFont: "Spectral", serif;
+$codeFont: "Hack", monospace;
+
+// Font Sizes
+$basicFontSize:     1em;
+$codeFontSize:      0.9em;
+$baseLineHeight:    1.4em;
+$h1-Size:           2em;
+$h2-Size:           1.6em;
+$h3-Size:           1.4em;
+$h4-Size:           1.2em;
+$h5-Size:           1em;
+$h6-Size:           1em;
+$pageLinkFontSize:  1em;
+$headerFontSize:    0.7em;
+$footerFontSize:    0.7em;
+$asciiLogoFontSize: 8px;
+
+// Color configs
+$backgroundColor:               #ffffff;
+$bodyColor:                     #000000;
+$mainColor:                     #7a5ada;
+$gradientSecondaryColor:        #6275bf;
+$codeBackgroundColor:           #f1f1f1;
+$codeBorderColor:               #a9a9a9;
+$headerPageLinkColor:           #000000;
+$headerPageLinkSeparatorColor:  #a9a9a9;
+$headerFooterDividerColor:      #ebebeb;
+$tableBorderColor:              #a9a9a9;
+$tableHeaderBackgroundColor:    #ebebeb;
+$tableZebraBackgroundColor:     #f1f1f1;

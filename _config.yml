@@ -1,34 +1,22 @@
 title: "Florian Schuttkowski"
-description: >
-  Wie alles was ich tue, widme ich diese Website den drei Frauen,
-  die mein Leben tagtäglich bereichern: meinen Kindern und meiner Partnerin. Danke für eure Liebe und die
-  Erfahrungen, die ich an eurer Seite machen darf.
-author: Florian Schuttkowski
-baseurl: ""
 url: "https://florianschuttkowski.com"
+lang: de-DE
+include:
+  - _pages
 
-theme: minima
+header_pages:
+  - _pages/cv.md
+
+footer_pages:
+  - _pages/impressum.md
+  - _pages/datenschutz.md
+
+plugins:
+  - jekyll-feed
+
+# This is needed to disable rouge as the default highlighter in jekyll.
 highlighter: none
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable: true
-
-#minima:
- # skin: latex
-  #date_format: "%d.%m.%Y"
-
-include:
-  - _pages
-
-header_pages:
-  - _pages/blog.md
-  - _pages/cv.md
-  - _pages/my-work.md
-  - _pages/kontakt.md
-  - _pages/downloads.md
-
-permalink: /:year/:title
-
-plugins:
-  - jekyll-feed

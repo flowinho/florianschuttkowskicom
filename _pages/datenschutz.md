@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: page
 title: Datenschutzerklärung
-exclude: true
 permalink: /datenschutz/
 ---
 
-<h1 class="adsimple-312685464">Datenschutzerklärung</h1>
 <h2 id="einleitung-ueberblick" class="adsimple-312685464">Einleitung und Überblick</h2>
 <p>Wir haben diese Datenschutzerklärung (Fassung 11.12.2023-312685464) verfasst, um Ihnen gemäß der Vorgaben der <a class="adsimple-312685464" href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=312685464#d1e2269-1-1" target="_blank" rel="noopener">Datenschutz-Grundverordnung (EU) 2016/679</a> und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche &#8211; und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) &#8211; verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.<br />
 <strong class="adsimple-312685464">Kurz gesagt:</strong> Wir informieren Sie umfassend über Daten, die wir über Sie verarbeiten.</p>

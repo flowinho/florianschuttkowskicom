@@ -1,0 +1,63 @@
+
+.ascii-logo-container {
+    margin: auto;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    clear: both;
+    line-height: 0.39 !important;
+  }
+  
+  .ascii-logo-container a {
+    text-decoration: none;
+}
+
+.ascii-logo {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-size: $asciiLogoFontSize;
+    white-space: pre-wrap;
+    background: linear-gradient(90deg, $gradientSecondaryColor, $mainColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.site-header {
+    border-bottom: 1px solid $headerFooterDividerColor;
+    font-size: $headerFontSize;
+}
+
+.page-link {
+    color: $headerPageLinkColor;
+    font-family: $codeFont;
+    font-size: $pageLinkFontSize;
+}
+
+.header-pages-separator {
+    color: $headerPageLinkSeparatorColor;
+}
+
+.footer {
+    border-top: 1px solid $headerFooterDividerColor;
+    font-family: $codeFont;
+    font-size: $footerFontSize;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.authorbox {
+    border: 1px dotted black;
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    padding-left: 16px;
+    padding-right: 16px;
+
+    img {
+        border-radius: 8px;
+    }
+}
