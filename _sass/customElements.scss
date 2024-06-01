@@ -61,3 +61,41 @@
         border-radius: 8px;
     }
 }
+
+.postlist-image {
+    filter: grayscale(80%);
+}
+
+.post-excerpt {
+    hyphens: auto; 
+	text-align: justify
+}
+
+.post-header {
+    border: 1px dotted black;
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 16px;
+    h1 {
+        line-height: 1.1em;
+    }
+    h2 {
+        margin-top: 0px;
+    }
+    img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .uk-grid {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+.post-meta {
+    padding: 12px;
+}
+
+.post-meta-tag {
+    font-family: $codeFont;
+    font-size: 0.75em;
+}

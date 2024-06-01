@@ -1,0 +1,22 @@
+.uk-card-default {
+    box-shadow: none !important;
+    color: black;
+    border-top: 2px solid $cardBorderColor;
+
+    h4 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    img {
+        margin-top: 0px;
+    }
+
+    strong {
+        font-size: 1.1em;
+    }
+}
+
+.uk-card-body {
+    padding: 4px !important;
+}

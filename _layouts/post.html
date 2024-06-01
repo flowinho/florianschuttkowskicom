@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="post-header">
+    <div uk-grid>
+        {% if page.image %}
+            <div class="uk-width-1-5@s uk-flex uk-flex-middle">
+                <div align="center">
+                    <img src="{{ page.image }}">
+                </div>
+            </div>
+        {% endif %}
+        <div class="uk-width-expand@s uk-flex uk-flex-middle">
+            <div class="post-meta">
+                <h2>{{ page.title }}</h2>
+                <p><strong>Erschienen am: </strong>
+                    {% assign m = page.date | date: "%-m" %}
+                    {{ page.date | date: "%-d." }}
+                    {% case m %}
+                    {% when '1' %}Januar
+                    {% when '2' %}Februar
+                    {% when '3' %}März
+                    {% when '4' %}April
+                    {% when '5' %}Mai
+                    {% when '6' %}Juni
+                    {% when '7' %}Juli
+                    {% when '8' %}August
+                    {% when '9' %}September
+                    {% when '10' %}Oktober
+                    {% when '11' %}November
+                    {% when '12' %}Dezember
+                    {% endcase %}
+                    {{ page.date | date: "%Y" }}
+                </p>
+                <p><strong>Kategorie: </strong>{{ page.categories }}</p>
+                <p><strong>Schlagworte: </strong>
+                    <span class="post-meta-tag">
+                        {% for tag in page.tags %}
+                            {{ tag }}
+                        {% if forloop.last %}
+                
+                        {% else %}
+                        <span class="header-pages-separator">//</span>
+                        {% endif %}
+                        {% endfor %}
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{{ content }}
