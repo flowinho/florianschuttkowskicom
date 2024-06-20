@@ -1,6 +1,6 @@
 ---
 layout: postlist
-title: Dev Diary
+title: DevDiary
 permalink: /dev/
 displayCategory: devDiary
 ---
