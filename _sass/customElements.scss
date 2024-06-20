@@ -113,13 +113,20 @@
     margin-right: 32px;
 }
 
+.contactcard-qr-container {
+    width: 100%;
+    margin-left: 32px;
+    margin-right: 32px;
+    
+}
+
 .contactcard-image {
     // max-width: 192px;
     // max-height: 192px;
     border-radius: 4px;
 }
 .contactcard-listing {
-    margin: 16px;
+    margin: 32px;
     line-height: 1.8;
 }
 .contactcard-title {

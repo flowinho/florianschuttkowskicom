@@ -4,6 +4,7 @@
 
     <title>{{ page.title }} - {{ site.title }}</title>
 
+    <!-- Mastodon-Verification -->
     <a rel="me" href="https://chaos.social/@flowinho"></a>
 
     <!-- CSS -->
@@ -15,6 +16,9 @@
     <script type="text/javascript" src="/assets/js/uikit.min.js"></script>
     <script type="text/javascript" src="/assets/js/uikit-icons.min.js"></script>
     <script type="text/javascript" src="/assets/js/prism.js"></script>
+
+    <!-- Script to decode URLs -->
+    {% include revealurl.html %}
 
     {% include opengraph.html %}
 
