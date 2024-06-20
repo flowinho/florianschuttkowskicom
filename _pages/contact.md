@@ -10,18 +10,18 @@ permalink: /kontakt/
             <div class="uk-width-1-4@s uk-flex uk-flex-middle">
                 <div class="contactcard-image-container" align="center">
                     <img class="contactcard-image" src="/assets/images/pixar-me.jpg">
-                    <p>KI generiertes Bild. Sehr nah dran.</p>
+                    <p>KI generiertes Bild.<br/>Sehr nah dran.</p>
                 </div>
             </div>
             <div class="uk-width-expand@s">
             <div class="contactcard-listing">
             <span class="contactcard-title">Florian Schuttkowski</span><br />
-                <span uk-icon="mail"></span>&nbsp;&nbsp;mail @ florianschuttkowski.com<br />
-                <span uk-icon="mail"></span>&nbsp;&nbsp;contact @ flowinho.com<br />
-                <span uk-icon="github-alt"></span>&nbsp;&nbsp;flowinho<br />
-                <span uk-icon="mastodon"></span>&nbsp;&nbsp;flowinho@chaos.social<br />
-                <span uk-icon="signal"></span>&nbsp;&nbsp;flowinho.42<br />
-                <span uk-icon="discord"></span>&nbsp;&nbsp;.flowinho<br />
+                <span uk-icon="mail"></span>&nbsp;&nbsp;<a href="">mail @ florianschuttkowski.com</a><br />
+                <span uk-icon="mail"></span>&nbsp;&nbsp;<a href="">contact @ flowinho.com</a><br />
+                <span uk-icon="github-alt"></span>&nbsp;&nbsp;<a href="">flowinho</a><br />
+                <span uk-icon="mastodon"></span>&nbsp;&nbsp;<a href="">flowinho@chaos.social</a><br />
+                <span uk-icon="signal"></span>&nbsp;&nbsp;<a href="">flowinho.42</a><br />
+                <span uk-icon="discord"></span>&nbsp;&nbsp;<a href="">.flowinho</a><br />
                 <br />
                 <span></span>
                 </div>
