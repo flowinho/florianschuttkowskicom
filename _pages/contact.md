@@ -16,12 +16,12 @@ permalink: /kontakt/
             <div class="uk-width-expand@s">
             <div class="contactcard-listing">
             <span class="contactcard-title">Florian Schuttkowski</span><br />
-                <span uk-icon="mail"></span>&nbsp;E-Mail: mail @ florianschuttkowski.com<br />
-                <span uk-icon="mail"></span>&nbsp;E-Mail: contact @ flowinho.com<br />
-                <span uk-icon="github-alt"></span>&nbsp;GitHub: flowinho<br />
-                <span uk-icon="mastodon"></span>&nbsp;Mastodon: flowinho@chaos.social<br />
-                <span uk-icon="signal"></span>&nbsp;Signal: flowinho.42<br />
-                <span uk-icon="discord"></span>&nbsp;Discord: .flowinho<br />
+                <span uk-icon="mail"></span>&nbsp;&nbsp;mail @ florianschuttkowski.com<br />
+                <span uk-icon="mail"></span>&nbsp;&nbsp;contact @ flowinho.com<br />
+                <span uk-icon="github-alt"></span>&nbsp;&nbsp;flowinho<br />
+                <span uk-icon="mastodon"></span>&nbsp;&nbsp;flowinho@chaos.social<br />
+                <span uk-icon="signal"></span>&nbsp;&nbsp;flowinho.42<br />
+                <span uk-icon="discord"></span>&nbsp;&nbsp;.flowinho<br />
                 <br />
                 <span></span>
                 </div>
