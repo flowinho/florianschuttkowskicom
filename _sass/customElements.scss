@@ -99,3 +99,29 @@
     font-family: $codeFont;
     font-size: 0.75em;
 }
+
+.contactcard {
+    border: 1px dotted black;
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    margin: 16px;
+}
+
+.contactcard-image-container {
+    width: 100%;
+    margin: 16px;
+}
+
+.contactcard-image {
+    max-width: 192px;
+    max-height: 192px;
+    border-radius: 4px;
+}
+.contactcard-listing {
+    margin: 16px;
+    line-height: 1.8;
+}
+.contactcard-title {
+    font-weight: bold;
+    font-size: 1.3em;
+}
