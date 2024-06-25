@@ -30,7 +30,7 @@ permalink: /kontakt/
 
             <div class="uk-width-1-4@s uk-flex uk-flex-middle">
                 <div class="contactcard-qr-container" align="center">
-                    <img class="contactcard-image" src="/assets/images/qr-contact.png" />
+                    <img class="contactcard-image" src="/assets/images/qr.jpg" />
                     <p>Virtuelle Kontaktkarte</p>
                 </div>
             </div>
