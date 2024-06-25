@@ -4,20 +4,6 @@ title: KontaktKarte
 permalink: /kontakt/
 ---
 
-<script>
-    function encodeURL(url) {
-    return btoa(url);
-}
-
-console.log(encodeURL("mailto:mail@florianschuttkowski.com"));
-console.log(encodeURL("mailto:contact@flowinho.com"));
-console.log(encodeURL("https://github.com/flowinho"));
-console.log(encodeURL("https://chaos.social/@flowinho"));
-console.log(encodeURL("https://signal.me/#eu/YYsmjGrYPtnITzp0VY2zv6DvpI0ZO03kGV3ErqrMXQ4Xw1_UJtNI8KqaiDswvKQ"));
-console.log(encodeURL("https://discordapp.com/users/.flowinho"));
-
-</script>
-
 <div class="contactcard">
     <div uk-grid>
             <div class="uk-width-1-4@s uk-flex uk-flex-middle">
@@ -36,6 +22,7 @@ console.log(encodeURL("https://discordapp.com/users/.flowinho"));
                     <span uk-icon="mastodon"></span>&nbsp;&nbsp;<a href="javascript:void(0);" onclick="revealURL(this, 'aHR0cHM6Ly9jaGFvcy5zb2NpYWwvQGZsb3dpbmhv')">flowinho@chaos.social</a><br />
                     <span uk-icon="signal"></span>&nbsp;&nbsp;<a href="javascript:void(0);" onclick="revealURL(this, 'aHR0cHM6Ly9zaWduYWwubWUvI2V1L1lZc21qR3JZUHRuSVR6cDBWWTJ6djZEdnBJMFpPMDNrR1YzRXJxck1YUTRYdzFfVUp0Tkk4S3FhaURzd3ZLUQ==')">flowinho.42</a><br />
                     <span uk-icon="discord"></span>&nbsp;&nbsp;<a href="javascript:void(0);" onclick="revealURL(this, 'aHR0cHM6Ly9kaXNjb3JkYXBwLmNvbS91c2Vycy8uZmxvd2luaG8=')">.flowinho</a><br />
+                    <span uk-icon="grid></span>&nbsp;&nbsp;<a href="javascript:void(0);" onclick="revealURL(this, 'aHR0cHM6Ly9tYXRyaXgudG8vIy9AZGVyZmxvd2luaG86bWF0cml4Lm9yZw==')">@derflowinho:matrix.org</a><br />
                     <br />
                     <span></span>
                     </div>
