@@ -1,3 +1,6 @@
+html {
+    background-color: $backgroundColor;
+}
 
 body {
     background:     $backgroundColor;
@@ -9,6 +12,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    padding: 1px;
+}
+
+p {
+    color: $textColor;
+}
+
+a {
+    color: $linkColor;
 }
 
 // Headings
@@ -32,6 +44,8 @@ pre code {
     font-size:      $codeFontSize;
 }
 
+code { background-color: $codeBackgroundColor !important;}
+
 code[class*=language-],pre[class*=language-]{
     font-family:    $codeFont;
     font-size:      $codeFontSize;
@@ -46,6 +60,8 @@ pre {
 table {
     width: 100%;
     border-collapse: collapse;
+    color: $textColor;
+
     th, td {
         border: 1px solid $tableBorderColor;
     }
@@ -65,22 +81,30 @@ table {
 blockquote {
     border-left: 1px solid $mainColor;
     font-style: italic;
+    color: $mainColor;
+}
+
+blockquote p {
+    color: $mainColor;
 }
 
 ul {
     list-style: circle;
+    color: $textColor;
 }
 
 ol {
     list-style: decimal;
+    color: $textColor;
 }
 
 strong {
     font-weight: 700;
     font-style: bold;
+    color: $textColor;
 }
 
 em {
     font-style: italic;
-    color: black;
+    color: $mainColor;
 }

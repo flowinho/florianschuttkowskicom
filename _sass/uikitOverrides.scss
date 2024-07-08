@@ -1,7 +1,8 @@
 .uk-card-default {
     box-shadow: none !important;
-    color: black;
+    color: $textColor;
     border-top: 2px solid $cardBorderColor;
+    background-color: $backgroundColor;
 
     h4 {
         margin-top: 0px;
@@ -19,4 +20,9 @@
 
 .uk-card-body {
     padding: 4px !important;
+}
+
+.uk-icon-button {
+    color: $textColor;
+    background-color: $backgroundColor;
 }

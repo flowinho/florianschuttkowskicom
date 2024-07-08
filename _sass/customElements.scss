@@ -1,3 +1,7 @@
+.mermaid {
+    background-color: $mermaidbackgroundcolor;
+    border-radius:      4px;
+}
 
 .ascii-logo-container {
     margin: auto;
@@ -51,9 +55,9 @@
 }
 
 .authorbox {
-    border: 1px dotted black;
+    border: 1px dotted $authorBoxBorderColor;
     border-radius: 4px;
-    background-color: rgb(245, 245, 245);
+    background-color: $authorboxBackgroundColor;
     padding-left: 16px;
     padding-right: 16px;
 
@@ -72,9 +76,9 @@
 }
 
 .post-header {
-    border: 1px dotted black;
+    border: 1px dotted $authorBoxBorderColor;
     border-radius: 4px;
-    background-color: rgb(245, 245, 245);
+    background-color: $authorboxBackgroundColor;
     margin-bottom: 16px;
     h1 {
         line-height: 1.1em;
@@ -101,9 +105,9 @@
 }
 
 .contactcard {
-    border: 1px dotted black;
+    border: 1px dotted $authorBoxBorderColor;
     border-radius: 4px;
-    background-color: rgb(245, 245, 245);
+    background-color: $authorboxBackgroundColor;
     margin: 16px;
 }
 
@@ -128,8 +132,10 @@
 .contactcard-listing {
     margin: 24px;
     line-height: 1.8;
+    color: $textColor;
 }
 .contactcard-title {
     font-weight: bold;
     font-size: 1.3em;
+    color: $mainColor;
 }
