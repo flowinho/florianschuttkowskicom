@@ -125,18 +125,9 @@
     
 }
 
-.contactcard-image {
-    // max-width: 192px;
-    // max-height: 192px;
-    border-radius: 4px;
-}
-.contactcard-listing {
-    margin: 24px;
-    line-height: 1.8;
+
+.themed-button {
     color: $textColor;
-}
-.contactcard-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    color: $mainColor;
+    border: 1px solid $authorBoxBorderColor;
+    border-radius: 4px;
 }
