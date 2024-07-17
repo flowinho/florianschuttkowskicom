@@ -4,8 +4,9 @@ title: ProjektPortfolio
 permalink: /portfolio/
 ---
 
-## Vorab
+## Vorwort
 
+Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite leider nicht veröffentlich oder genannt werden. Ich bemühe mich regelmäßig darum, für diese Projekte eine entsprechende Freigabe zu erhalten. Aufgrund dieser Tatsache muss diese Liste als unvollständig betrachtet werden.
 
 <br />
 Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von beeindruckenden Entwickler:innen entwickelt und betrieben werden. Ohne diese Menschen und ihre Software wäre vieles in meinem beruflichen und privaten Tüftler-Alltag so nicht möglich. Ein großes Dankeschön geht an mindestens folgende Projekte, Firmen und Plattformen:
@@ -80,7 +81,7 @@ Ihr seid grandios!
                     </p>
                     <h3>Meine Rolle im Projekt</h3>
                     <p>
-                        Die Gründer sprachen mich an, ob ich Lust habe eine App mit auf den Weg zu bringen, die Elektromobilität zugänglicher machen will. Als iOS Software-Entwickler erweckte ich die erste Version des Ladefuchs zum Leben. Seit 2013 habe ich mich aus der aktiven Entwicklung zurückgezogen, bleibe aber Teil des Teams. Die App ist mittlerweile eine Cross-Plattform-Projekt, umgesetzt in React-Native.
+                        Die Gründer sprachen mich an, ob ich Lust habe eine App mit auf den Weg zu bringen, die Elektromobilität zugänglicher machen will. Als iOS Software-Entwickler erweckte ich die erste Version des Ladefuchs zum Leben. Seit 2023 habe ich mich aus der aktiven Entwicklung zurückgezogen, bleibe aber Teil des Teams. Die App ist mittlerweile eine Cross-Plattform-Projekt, umgesetzt in React-Native.
                     </p>
 
                     <h3>Eingesetzte Technologien / Software</h3>
@@ -117,6 +118,22 @@ Ihr seid grandios!
             <div class="uk-width-expand@s">
                 <div class="project-description">
                 <h2>myScotty</h2>
+                <strong>Entwicklung: 2017 - 2018</strong>
+                <p>
+                    myScotty war eine Glanzstunde in meiner Karriere, ein Projekt und ein Team, dass ich nie vergessen werde. Der Dienst hat Bike-Sharing, Car-Sharing und Scooter-Sharing zusammen mit öffentlichen Verkehrsmitteln zu einer umfassenden Mobilitätslösung vereint, um alternative Fortbewegungsmittel attraktiver zu machen.
+                    Leider sind sowohl App, als auch Webseite nicht mehr verfügbar.
+                </p>
+                <h3>Meine Rolle im Projekt</h3>
+                <p>
+                    iOS Lead-Entwickler. Zusammen mit einem wundervollen Team aus iOS-Software-Entwickler:innen aus Cluj-Napoca, RO und dem deutschen Marketing- und Backend-Team vor Ort habe ich die Entwicklung der App gesteuert und selbst aktiv programmiert.
+                </p>
+                <h3>Eingesetzte Technologien / Software</h3>
+                <p>
+                    V.I.P.E.R., Swift, Objective-C, XCode, AppCenter, Alamofire
+                </p>
+                <div class="project-links">
+                    <a href="https://vimeo.com/196608956" class="uk-icon-button" uk-icon="video-camera"></a>
+                </div>
                 </div>
             </div>
         </div>
