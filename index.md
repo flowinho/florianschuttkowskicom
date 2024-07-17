@@ -3,7 +3,7 @@ layout: page
 title: Willkommen
 ---
 
-<pre class="language-bash"><p class="code-animation" id="helloWorldAnimation"></p></pre>
+<pre class="language-shell"><p class="code-animation" id="helloWorldAnimation"></p></pre>
 <br />
 
 {% include authorbox.html %}
@@ -13,9 +13,21 @@ title: Willkommen
 <script>
     new TypeIt("#helloWorldAnimation", { 
     lifeLike: true, 
-    speed: 90 
+    speed: 90
 })
 	.delete(180, {instant: true})
+    .type("#")
+    .type("/")
+    .type("b")
+    .type("i")
+    .type("n")
+    .type("/")
+    .type("b")
+    .type("a")
+    .type("s")
+    .type("h")
+    .break()
+    .type("")
 	.type("v")
 	.type("i")
 	.type("m")
