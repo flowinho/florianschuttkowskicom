@@ -61,7 +61,30 @@ Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von bee
             </div>
             <div class="uk-width-expand@s">
                 <div class="project-description">
-                dasdsadar
+                <h2>Ladefuchs - Einfach schlau laden.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- myScotty -->
+<div class="project-wrapper">
+    <div class="project-titlebar">
+        <div class="dot red"></div>
+        <div class="dot amber"></div>
+        <div class="dot green"></div>
+    </div>
+    <div class="project-window">
+        <div class="uk-grid margin-less-grid" uk-grid>
+            <div class="uk-width-1-3@s">
+                <div class="project-screenshot">
+                    <img src="/assets/images/portfolio/myScotty.png" />
+                </div>
+            </div>
+            <div class="uk-width-expand@s">
+                <div class="project-description">
+                <h2>myScotty</h2>
                 </div>
             </div>
         </div>
@@ -84,7 +107,7 @@ Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von bee
             </div>
             <div class="uk-width-expand@s">
                 <div class="project-description">
-                dasdsadar
+                <h2>Audiodump</h2>
                 </div>
             </div>
         </div>
@@ -107,7 +130,7 @@ Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von bee
             </div>
             <div class="uk-width-expand@s">
                 <div class="project-description">
-                dasdsadar
+                <h2>FlorianSchuttkowski.com</h2>
                 </div>
             </div>
         </div>
@@ -153,7 +176,7 @@ Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von bee
             </div>
             <div class="uk-width-expand@s">
                 <div class="project-description">
-                dasdsadar
+                <h2>DIN 5008 Briefvorlage für pandoc</h2>
                 </div>
             </div>
         </div>
