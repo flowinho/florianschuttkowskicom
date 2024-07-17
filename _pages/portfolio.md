@@ -45,6 +45,29 @@ Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von bee
     <img class="badge" src="/assets/images/badges/zsh.svg" />
 </p>
 
+<!-- Ladefuchs -->
+<div class="project-wrapper">
+    <div class="project-titlebar">
+        <div class="dot red"></div>
+        <div class="dot amber"></div>
+        <div class="dot green"></div>
+    </div>
+    <div class="project-window">
+        <div class="uk-grid margin-less-grid" uk-grid>
+            <div class="uk-width-1-3@s">
+                <div class="project-screenshot">
+                    <img src="/assets/images/portfolio/ladefuchs.png" />
+                </div>
+            </div>
+            <div class="uk-width-expand@s">
+                <div class="project-description">
+                dasdsadar
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Audiodump -->
 <div class="project-wrapper">
     <div class="project-titlebar">
