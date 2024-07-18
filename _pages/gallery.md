@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gallerie
+title: GallerieGrid
 permalink: /gallerie/
 ---
 
