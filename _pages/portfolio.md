@@ -77,7 +77,7 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
                 <h2>myScotty</h2>
                 <strong>Entwicklung: 2017 - 2018</strong>
                 <p>
-                    myScotty war eine Glanzstunde in meiner Karriere, ein Projekt und ein Team, dass ich nie vergessen werde. Der Dienst hat Bike-Sharing, Car-Sharing und Scooter-Sharing zusammen mit öffentlichen Verkehrsmitteln zu einer umfassenden Mobilitätslösung vereint, um alternative Fortbewegungsmittel attraktiver zu machen.
+                    myScotty war eine Glanzstunde in meiner Karriere, ein Projekt und ein Team, dass ich nie vergessen werde. Der Dienst vereinte Bike-Sharing, Car-Sharing und Scooter-Sharing zusammen mit öffentlichen Verkehrsmitteln zu einer umfassenden Mobilitätslösung.
                 </p>
                 <br />
                 <strong>Meine Rolle im Projekt</strong>
@@ -89,9 +89,12 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
                 <p>
                     V.I.P.E.R., Swift, Objective-C, XCode, AppCenter, Alamofire
                 </p>
+                <br />
+                <br />
                 <div class="project-links">
                     <a href="https://vimeo.com/196608956" class="uk-icon-button" uk-icon="video-camera"></a>
                 </div>
+                <br />
                 </div>
             </div>
         </div>
@@ -114,7 +117,24 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
             </div>
             <div class="uk-width-expand@s">
                 <div class="project-description">
-                <h2>Audiodump</h2>
+                    <h2>Audiodump</h2>
+                    <strong>2017 bis Heute</strong>
+                    <p>Audiodump ist ein Podcast mit Fokus auf Technologie, insbesondere Apple hat. Eine breite Streuung von Themen und interessante, manchmal prominente Gäste, sowie die Stammtisch-Atmosphäre und unsere wundervolle Community machen dieses, für mich ganz besondere Projekt, aus. <em>Nicht ganz ernst zu nehmen.</em></p>
+                    <br />
+                    <strong>Meine Rolle im Projekt</strong>
+                    <p>Ich bin Teil der vier Stamm-Hosts der Sendung. Die Hörer sagen: "Der Vollwissen-Beauftragte".</p>
+                    <br />
+                    <strong>Eingesetzte Technologien / Software</strong>
+                    <p>Studiolink, Trello, Slack, Mastodon</p>
+                    <br />
+                    <br />
+                    <div class="project-links">#
+                        <a href="https://podcasts.apple.com/de/podcast/audiodump/id1208277374" class="uk-icon-button" uk-icon="link"></a>
+                        <a href="https://audiodump.de" class="uk-icon-button" uk-icon="home"></a>
+                        <a href="https://podcasts.social/@audiodump" class="uk-icon-button" uk-icon="mastodon"></a>
+                        <a href="https://audiodump.de/join" class="uk-icon-button" uk-icon="cart"></a>
+                    </div>
+                    <br />
                 </div>
             </div>
         </div>
@@ -137,30 +157,22 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
             </div>
             <div class="uk-width-expand@s">
                 <div class="project-description">
-                <h2>FlorianSchuttkowski.com</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- MKDOCS -->
-<div class="project-wrapper">
-    <div class="project-titlebar">
-        <div class="dot red"></div>
-        <div class="dot amber"></div>
-        <div class="dot green"></div>
-    </div>
-    <div class="project-window">
-        <div class="uk-grid margin-less-grid" uk-grid>
-            <div class="uk-width-1-3@s">
-                <div class="project-screenshot">
-                    <img src="/assets/images/portfolio/mkdocs-website.png" />
-                </div>
-            </div>
-            <div class="uk-width-expand@s">
-                <div class="project-description">
-                    <h2>Persönliche Wiki auf Basis von Material for mkdocs</h2>
+                    <h2>FlorianSchuttkowski.com</h2>
+                    <strong>2019 - Heute</strong>
+                    <p>
+                        Meine persönliche Webseite, auf der dieses Portfolio gehostet wird. Ich lehne es ab, meinen CV, meine Blogbeiträge, meine Projektauflistung und alles weitere Interessante auf Webseiten von Dritt-Anbietern zu pflegen. Ich möchte die Kontrolle über meine Daten behalten und insbesondere nicht den Wert von Websiten steigern, in dem die Betreiber:innen meine Daten weiterverkaufen. <em>Control your data.</em>
+                    </p>
+                    <br />
+                    <strong>Eingesetzte Technologien / Software</strong>
+                    <p>
+                        HTML, SASS, CSS, YAML, Jekyll, Dall-E, GitHub Codespaces, GitHub Actions, UIKit, TypeIt, PrismJS
+                    </p>
+                    <br />
+                    <br />
+                    <div class="project-links">#
+                        <a href="https://florianschuttkowski.com" class="uk-icon-button" uk-icon="home"></a>
+                    </div>
+                    <br />
                 </div>
             </div>
         </div>
@@ -184,6 +196,26 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
             <div class="uk-width-expand@s">
                 <div class="project-description">
                 <h2>DIN 5008 Briefvorlage für pandoc</h2>
+                <strong>2023 - Heute</strong>
+                    <p>
+                        Aufbauend auf anderen FOSS-Projekten habe ich mir mit diesem Projekt den Wunsch erfüllt, nach DIN 5008 genormte Briefe, inklusive Faltmarken, in Markdown schreiben zu können.
+                    </p>
+                    <br />
+                    <strong>Lizenz</strong>
+                    <p>
+                        GPLv3 - GNU General Public License 3
+                    </p>
+                    <br />
+                    <strong>Eingesetzte Technologien / Software</strong>
+                    <p>
+                        GitHub Actions, LaTeX, Markdown, pandoc
+                    </p>
+                    <br />
+                    <br />
+                    <div class="project-links">#
+                        <a href="https://github.com/flowinho/pandoc-din5008-german" class="uk-icon-button" uk-icon="github"></a>
+                    </div>
+                    <br />
                 </div>
             </div>
         </div>
