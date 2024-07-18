@@ -9,51 +9,7 @@ permalink: /portfolio/
 Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite leider nicht veröffentlich oder genannt werden. Ich bemühe mich regelmäßig darum, für diese Projekte eine entsprechende Freigabe zu erhalten. Aufgrund dieser Tatsache muss diese Liste als unvollständig betrachtet werden.
 
 <br />
-Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von beeindruckenden Entwickler:innen entwickelt und betrieben werden. Ohne diese Menschen und ihre Software wäre vieles in meinem beruflichen und privaten Tüftler-Alltag so nicht möglich. Ein großes Dankeschön geht an mindestens folgende Projekte, Firmen und Plattformen:
-<br /><br />
-<p>
-    <img class="badge" src="/assets/images/badges/GIT.svg" />
-    <img class="badge" src="/assets/images/badges/GithubActions.svg" />
-    <img class="badge" src="/assets/images/badges/GithubPages.svg" />
-    <img class="badge" src="/assets/images/badges/gitignore.svg" />
-    <img class="badge" src="/assets/images/badges/Jekyll.svg" />
-    <img class="badge" src="/assets/images/badges/SonarQube.svg" />
-    <img class="badge" src="/assets/images/badges/VIM.svg" />
-    <img class="badge" src="/assets/images/badges/VSCodium.svg" />
-    <img class="badge" src="/assets/images/badges/Xcode.svg" />
-    <img class="badge" src="/assets/images/badges/CSS.svg" />
-    <img class="badge" src="/assets/images/badges/HTML5.svg" />
-    <img class="badge" src="/assets/images/badges/Javascript.svg" />
-    <img class="badge" src="/assets/images/badges/Markdown.svg" />
-    <img class="badge" src="/assets/images/badges/SASS.svg" />
-    <img class="badge" src="/assets/images/badges/Swift.svg" />
-    <img class="badge" src="/assets/images/badges/YAML.svg" />
-    <img class="badge" src="/assets/images/badges/2fas.svg" />
-    <img class="badge" src="/assets/images/badges/gpg.svg" />
-    <img class="badge" src="/assets/images/badges/KeePassXC.svg" />
-    <img class="badge" src="/assets/images/badges/Confluence.svg" />
-    <img class="badge" src="/assets/images/badges/Jira.svg" />
-    <img class="badge" src="/assets/images/badges/Obsidian.svg" />
-    <img class="badge" src="/assets/images/badges/materialmkdocs.svg" />
-    <img class="badge" src="/assets/images/badges/Mermaid.svg" />
-    <img class="badge" src="/assets/images/badges/GoogleFonts.svg" />
-    <img class="badge" src="/assets/images/badges/ffmpeg.svg" />
-    <img class="badge" src="/assets/images/badges/shields.io.svg" />
-    <img class="badge" src="/assets/images/badges/SimpleIcons.svg" />
-    <img class="badge" src="/assets/images/badges/uikit.svg" />
-    <img class="badge" src="/assets/images/badges/Nextcloud.svg" />
-    <img class="badge" src="/assets/images/badges/NGINX.svg" />
-    <img class="badge" src="/assets/images/badges/OpenAI.svg" />
-    <img class="badge" src="/assets/images/badges/tmux.svg" />
-    <img class="badge" src="/assets/images/badges/Bosch.svg" />
-    <img class="badge" src="/assets/images/badges/Homebrew.svg" />
-    <img class="badge" src="/assets/images/badges/KoFi.svg" />
-    <img class="badge" src="/assets/images/badges/zsh.svg" />
-</p>
 
-<br />
-
-Ihr seid grandios!
 
 ## Projekte
 
@@ -74,17 +30,18 @@ Ihr seid grandios!
             <div class="uk-width-expand@s">
                 <div class="project-description">
                     <h2>Ladefuchs - Einfach schlau laden.</h2>
-                    <strong>Entwicklung: 06.2020 - 02.2023, danach weiterhin Team-Mitglied</strong>
+                    <strong>06.2020 - 02.2023, danach weiterhin Team-Mitglied</strong>
                     <p>
-                        Ladefuchs ist eine Non-Profit-Unternehmung, die neben einer Android- und einer iOS-App auch ein mittlerweile ausführlich ausgearbeitetes Backend beinhaltet. Dank ChargePrice sind wir in der Lage, Kunden von Ladesäulen mit aktuellen Ladestrom-Preisen zur jeweiligen Ladesäule anzuzeigen.
-                        Die Bedienung ist bewusst einfach gehalten, um das bekannte Modell "Wieviel kostet das Benzin an den Tankstellen" zugänglich und nahtlos an neue und erfahrene EV-Fahrer:innen zu vermitteln.
+                        Ladefuchs ist eine Non-Profit-Unternehmung. Dank ChargePrice sind wir in der Lage, Kunden von Ladesäulen mit aktuellen Ladestrom-Preisen zur jeweiligen Ladesäule anzuzeigen.
+                        Die Bedienung ist bewusst einfach gehalten, um neue EV-Fahrer:innen anzusprechen.
                     </p>
-                    <h3>Meine Rolle im Projekt</h3>
+                    <br />
+                    <strong>Meine Rolle im Projekt</strong>
                     <p>
-                        Die Gründer sprachen mich an, ob ich Lust habe eine App mit auf den Weg zu bringen, die Elektromobilität zugänglicher machen will. Als iOS Software-Entwickler erweckte ich die erste Version des Ladefuchs zum Leben. Seit 2023 habe ich mich aus der aktiven Entwicklung zurückgezogen, bleibe aber Teil des Teams. Die App ist mittlerweile eine Cross-Plattform-Projekt, umgesetzt in React-Native.
+                        Als iOS Software-Entwickler erweckte ich die erste Version des Ladefuchs zum Leben. Die App ist mittlerweile eine Cross-Plattform-Projekt, umgesetzt in React-Native.
                     </p>
-
-                    <h3>Eingesetzte Technologien / Software</h3>
+                    <br />
+                    <strong>Eingesetzte Technologien / Software</strong>
                     <p>
                     Swift, Objective-C, UIKit, Xcode, TestFlight, Alamofire
                     </p>
@@ -121,13 +78,14 @@ Ihr seid grandios!
                 <strong>Entwicklung: 2017 - 2018</strong>
                 <p>
                     myScotty war eine Glanzstunde in meiner Karriere, ein Projekt und ein Team, dass ich nie vergessen werde. Der Dienst hat Bike-Sharing, Car-Sharing und Scooter-Sharing zusammen mit öffentlichen Verkehrsmitteln zu einer umfassenden Mobilitätslösung vereint, um alternative Fortbewegungsmittel attraktiver zu machen.
-                    Leider sind sowohl App, als auch Webseite nicht mehr verfügbar.
                 </p>
-                <h3>Meine Rolle im Projekt</h3>
+                <br />
+                <strong>Meine Rolle im Projekt</strong>
                 <p>
-                    iOS Lead-Entwickler. Zusammen mit einem wundervollen Team aus iOS-Software-Entwickler:innen aus Cluj-Napoca, RO und dem deutschen Marketing- und Backend-Team vor Ort habe ich die Entwicklung der App gesteuert und selbst aktiv programmiert.
+                    iOS Lead-Entwickler. Zusammen mit einem wundervollen Team aus iOS-Software-Entwickler:innen aus Cluj-Napoca habe ich die Entwicklung der App gesteuert und selbst aktiv programmiert.
                 </p>
-                <h3>Eingesetzte Technologien / Software</h3>
+                <br />
+                <strong>Eingesetzte Technologien / Software</strong>
                 <p>
                     V.I.P.E.R., Swift, Objective-C, XCode, AppCenter, Alamofire
                 </p>
@@ -231,3 +189,49 @@ Ihr seid grandios!
         </div>
     </div>
 </div>
+
+Wenn ich Software schreibe, benutze ich oft atemberaubende Programme die von beeindruckenden Entwickler:innen entwickelt und betrieben werden. Ohne diese Menschen und ihre Software wäre vieles in meinem beruflichen und privaten Tüftler-Alltag so nicht möglich. Ein großes Dankeschön geht an mindestens folgende Projekte, Firmen und Plattformen:
+<br /><br />
+<p>
+    <img class="badge" src="/assets/images/badges/GIT.svg" />
+    <img class="badge" src="/assets/images/badges/GithubActions.svg" />
+    <img class="badge" src="/assets/images/badges/GithubPages.svg" />
+    <img class="badge" src="/assets/images/badges/gitignore.svg" />
+    <img class="badge" src="/assets/images/badges/Jekyll.svg" />
+    <img class="badge" src="/assets/images/badges/SonarQube.svg" />
+    <img class="badge" src="/assets/images/badges/VIM.svg" />
+    <img class="badge" src="/assets/images/badges/VSCodium.svg" />
+    <img class="badge" src="/assets/images/badges/Xcode.svg" />
+    <img class="badge" src="/assets/images/badges/CSS.svg" />
+    <img class="badge" src="/assets/images/badges/HTML5.svg" />
+    <img class="badge" src="/assets/images/badges/Javascript.svg" />
+    <img class="badge" src="/assets/images/badges/Markdown.svg" />
+    <img class="badge" src="/assets/images/badges/SASS.svg" />
+    <img class="badge" src="/assets/images/badges/Swift.svg" />
+    <img class="badge" src="/assets/images/badges/YAML.svg" />
+    <img class="badge" src="/assets/images/badges/2fas.svg" />
+    <img class="badge" src="/assets/images/badges/gpg.svg" />
+    <img class="badge" src="/assets/images/badges/KeePassXC.svg" />
+    <img class="badge" src="/assets/images/badges/Confluence.svg" />
+    <img class="badge" src="/assets/images/badges/Jira.svg" />
+    <img class="badge" src="/assets/images/badges/Obsidian.svg" />
+    <img class="badge" src="/assets/images/badges/materialmkdocs.svg" />
+    <img class="badge" src="/assets/images/badges/Mermaid.svg" />
+    <img class="badge" src="/assets/images/badges/GoogleFonts.svg" />
+    <img class="badge" src="/assets/images/badges/ffmpeg.svg" />
+    <img class="badge" src="/assets/images/badges/shields.io.svg" />
+    <img class="badge" src="/assets/images/badges/SimpleIcons.svg" />
+    <img class="badge" src="/assets/images/badges/uikit.svg" />
+    <img class="badge" src="/assets/images/badges/Nextcloud.svg" />
+    <img class="badge" src="/assets/images/badges/NGINX.svg" />
+    <img class="badge" src="/assets/images/badges/OpenAI.svg" />
+    <img class="badge" src="/assets/images/badges/tmux.svg" />
+    <img class="badge" src="/assets/images/badges/Bosch.svg" />
+    <img class="badge" src="/assets/images/badges/Homebrew.svg" />
+    <img class="badge" src="/assets/images/badges/KoFi.svg" />
+    <img class="badge" src="/assets/images/badges/zsh.svg" />
+</p>
+
+<br />
+
+Ihr seid grandios!
