@@ -42,9 +42,15 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
                     </p>
                     <br />
                     <strong>Eingesetzte Technologien / Software</strong>
+                    <br /><br />
                     <p>
-                    Swift, Objective-C, UIKit, Xcode, TestFlight, Alamofire
-                    </p>
+                        <img alt="swift" class="badge" src="/assets/images/project-badges/ladefuchs/swift-badge.svg" />
+                        <img alt="apple" class="badge" src="/assets/images/project-badges/ladefuchs/objectivec-badge.svg" />
+                        <img alt="apple" class="badge" src="/assets/images/project-badges/ladefuchs/uikit-badge.svg" />
+                        <img alt="xcode" class="badge" src="/assets/images/project-badges/ladefuchs/xcode-badge.svg" />
+                        <img alt="apple" class="badge" src="/assets/images/project-badges/ladefuchs/testflight-badge.svg" />
+                        <img alt="swift" class="badge" src="/assets/images/project-badges/ladefuchs/alamofire-badge.svg" />
+                    </p>                    
                     <br />
                     <br />
                     <div class="project-links">
@@ -86,8 +92,14 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
                 </p>
                 <br />
                 <strong>Eingesetzte Technologien / Software</strong>
+                <br /><br />
                 <p>
-                    V.I.P.E.R., Swift, Objective-C, XCode, AppCenter, Alamofire
+                    <img alt="swift" class="badge" src="/assets/images/project-badges/myscotty/swift-badge.svg" />
+                    <img alt="apple" class="badge" src="/assets/images/project-badges/myscotty/objectivec-badge.svg" />
+                    <img alt="xcode" class="badge" src="/assets/images/project-badges/myscotty/xcode-badge.svg" />
+                    <img alt="swift" class="badge" src="/assets/images/project-badges/myscotty/alamofire-badge.svg" />
+                    <img alt="apple" class="badge" src="/assets/images/project-badges/myscotty/testflight-badge.svg" />
+
                 </p>
                 <br />
                 <br />
@@ -125,7 +137,13 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
                     <p>Ich bin Teil der vier Stamm-Hosts der Sendung. Die Hörer sagen: "Der Vollwissen-Beauftragte".</p>
                     <br />
                     <strong>Eingesetzte Technologien / Software</strong>
-                    <p>Studiolink, Trello, Slack, Mastodon</p>
+                    <br /><br />
+                    <p>
+                        <img alt="trello" class="badge" src="/assets/images/project-badges/audiodump/trello-badge.svg" />
+                        <img alt="slack" class="badge" src="/assets/images/project-badges/audiodump/slack-badge.svg" />
+                        <img alt="mastodon" class="badge" src="/assets/images/project-badges/audiodump/mastodon-badge.svg" />
+
+                    </p>
                     <br />
                     <br />
                     <div class="project-links">#
@@ -164,8 +182,15 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
                     </p>
                     <br />
                     <strong>Eingesetzte Technologien / Software</strong>
+                    <br /><br />
                     <p>
-                        HTML, SASS, CSS, YAML, Jekyll, Dall-E, GitHub Codespaces, GitHub Actions, UIKit, TypeIt, PrismJS
+                        <img alt="sass" class="badge" src="/assets/images/project-badges/florianschuttkowskicom/sass-badge.svg" />
+                        <img alt="yaml" class="badge" src="/assets/images/project-badges/florianschuttkowskicom/yaml-badge.svg" />
+                        <img alt="jekyll" class="badge" src="/assets/images/project-badges/florianschuttkowskicom/jekyll-badge.svg" />
+                        <img alt="openai" class="badge" src="/assets/images/project-badges/florianschuttkowskicom/openai-badge.svg" />
+                        <img alt="githubactions" class="badge" src="/assets/images/project-badges/florianschuttkowskicom/githubactions-badge.svg" />
+                        <img alt="uikit" class="badge" src="/assets/images/project-badges/florianschuttkowskicom/uikit-badge.svg" />
+
                     </p>
                     <br />
                     <br />
@@ -207,8 +232,13 @@ Viele meiner Projekte sind geschützt durch NDAs und können auf dieser Seite le
                     </p>
                     <br />
                     <strong>Eingesetzte Technologien / Software</strong>
+                    <br />
+                    <br />
                     <p>
-                        GitHub Actions, LaTeX, Markdown, pandoc
+                        <img alt="githubactions" class="badge" src="/assets/images/project-badges/pandoc/githubactions-badge.svg" />
+                        <img alt="latex" class="badge" src="/assets/images/project-badges/pandoc/latex-badge.svg" />
+                        <img alt="markdown" class="badge" src="/assets/images/project-badges/pandoc/markdown-badge.svg" />
+
                     </p>
                     <br />
                     <br />
