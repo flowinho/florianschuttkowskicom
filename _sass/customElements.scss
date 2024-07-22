@@ -67,7 +67,7 @@
 }
 
 .postlist-image {
-    filter: grayscale(80%);
+    filter: grayscale(20%);
 }
 
 .post-excerpt {
@@ -86,6 +86,7 @@
     }
     h2 {
         margin-top: 0px;
+        line-height: 1.0em;
     }
     img {
         margin-top: 0px;
