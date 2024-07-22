@@ -5,7 +5,7 @@ image: /assets/images/post-images/rubine.jpeg
 categories: devDiary
 tags: [macos, sonoma, ruby, gems, homebrew]
 excerpt: >
-    dasda
+    Die mit macOS gelieferte Version von Ruby ist veraltet und sollte nicht mit Homebrew aktualisiert werden. Stattdessen sollte Ruby über ruby-install installiert und mit chruby verwaltet werden, wobei chruby auch in der zsh-Konfiguration eingebunden werden muss.
 ---
 
 Die Version von ruby, die Apple mit macOS verteilt ist extrem veraltet. Sollte eine neuere Version benötigt werden,
