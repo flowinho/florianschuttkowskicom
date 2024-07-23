@@ -10,6 +10,7 @@ header_pages:
   - _pages/portfolio.md
   - _pages/contact.md
   - _pages/gallery.md
+  - _pages/download.md
 
 footer_pages:
   - _pages/impressum.md
