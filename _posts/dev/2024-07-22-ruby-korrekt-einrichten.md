@@ -23,7 +23,7 @@ Stattdessen ist es sinnvoll ruby über `ruby-install` herunterzuladen, zu kompil
 brew update && brew install chruby ruby-install
 
 # Die neueste Version von Ruby installieren
-ruby install
+ruby-install ruby
 ```
 
 Die Installation ist noch nicht abgeschlossen. `chruby` muss anschließen noch konfiguriert werden.
