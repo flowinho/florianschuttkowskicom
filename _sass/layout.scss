@@ -4,6 +4,12 @@
     padding-left: 16px;
     padding-right: 16px;
 }
+.container-wide {
+    max-width: $wide-content-width;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
 .ascii-logo-container {
     padding-top:    16px;

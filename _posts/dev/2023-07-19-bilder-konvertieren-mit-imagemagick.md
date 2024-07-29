@@ -18,7 +18,7 @@ sudo apt update && sudo apt install imagemagick # Sollte imagemagick nicht berei
 brew update && brew install imagemagick
 
 # Der Befehl
-convert -strip -interlace Plane -quality 70% -sampling-factor 4:2:0 -define jpeg:dct-method=float source.jpg output.jpg
+magick -strip -interlace Plane -quality 70% -sampling-factor 4:2:0 -define jpeg:dct-method=float source.jpg output.jpg
 ```
 
 Wie setzt sich dieser Befehl zusammen?
